@@ -1,0 +1,33 @@
+body{
+    background: #000;
+    margin: 0;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+}
+.img1{
+    background: url('img/1 新 視覺.png') center center;
+    width: 1920px;
+    height: 929px;
+    margin: 0 auto;
+    background-size: cover; 
+    z-index: 100;
+}
+
+/*img{
+    width: 100%;
+}*/
+
+.img2{
+    background: url('img/2/ 新/視差.png') center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+     
+}
